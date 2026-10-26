@@ -181,6 +181,38 @@ Este laboratório foi desenvolvido em uma rede virtual Host-only, destinada aos 
 
 As configurações e os resultados apresentados referem-se ao ambiente de laboratório descrito neste repositório.
 
+## 📸 Evidências do laboratório
+
+As capturas de tela abaixo documentam as principais etapas da implementação e os testes realizados no ambiente Windows Server.
+
+### Infraestrutura e rede
+- [Configuração de rede do servidor](evidencias/01-servidor-configuracao-rede.png)
+- [Configuração DHCP do cliente](evidencias/02-cliente-configuracao-dhcp.png)
+- [Teste de resolução DNS](evidencias/10-teste-dns.png)
+- [Descoberta do controlador de domínio](evidencias/11-teste-controlador-dominio.png)
+- [Escopo DHCP configurado](evidencias/12-escopo-dhcp.png)
+
+### Active Directory
+- [Estrutura do domínio](evidencias/03-estrutura-dominio-ad.png)
+- [Unidades organizacionais](evidencias/04-unidades-organizacionais.png)
+- [Usuários do domínio](evidencias/05-usuarios-active-directory.png)
+- [Grupos de segurança](evidencias/06-grupos-seguranca.png)
+
+### Políticas de grupo (GPO)
+- [Configuração da política de bloqueio de tela](evidencias/13-gpo-bloqueio-tela.png)
+- [Confirmação da GPO aplicada ao cliente](evidencias/14-gpo-aplicada-cliente.png)
+
+### Compartilhamentos e permissões
+- [Pastas departamentais](evidencias/15-pastas-departamentos.png)
+- [Compartilhamentos SMB](evidencias/16-compartilhamentos-smb.png)
+- [Permissões NTFS — TI](evidencias/17-permissoes-ntfs-ti.png)
+- [Permissões NTFS — RH](evidencias/18-permissoes-ntfs-rh.png)
+- [Permissões NTFS — Financeiro](evidencias/19-permissoes-ntfs-financeiro.png)
+- [Teste de acesso permitido ao compartilhamento TI](evidencias/20-acesso-ti-permitido.png)
+- [Teste de acesso negado ao compartilhamento RH](evidencias/21-acesso-rh-negado-ti.png)
+- [Teste de acesso negado ao compartilhamento Financeiro](evidencias/22-acesso-financeiro-negado-ti.png)
+
+
 ## Autor
 
 Projeto desenvolvido para fins de estudo, prática técnica e construção de portfólio na área de Infraestrutura de TI.
