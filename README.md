@@ -159,7 +159,7 @@ Os testes no Windows 11 verificaram que usuários conseguiam acessar as pastas a
 
 ## Evidências
 
-As capturas de tela e os registros dos testes serão organizados no diretório `evidencias/`.
+As capturas de tela e os registros dos testes estão organizados no diretório `evidencias/`.
 
 As evidências incluem configurações de rede, estrutura do Active Directory, grupos de segurança, testes de DNS e DHCP, aplicação da GPO, compartilhamentos e permissões NTFS.
 
